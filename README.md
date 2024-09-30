@@ -7,11 +7,13 @@ Place the above 2 files in the root folder, and Open CMD
 
 Run the command(to build the image):
 docker buildx build -t <name>:<version>
->>docker buildx build -t my-python-app:1.0 .
+(or)
+docker buildx build -t my-python-app:1.0 .
 
 Then run(to run the image):
 docker run <image_name>
->>docker run my-python-app:1.0
+(or)
+docker run my-python-app:1.0
 
 
 
