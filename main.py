@@ -1,0 +1,1 @@
+print("this is to learn docker, this line must display in the terminal when run as a docker container")
